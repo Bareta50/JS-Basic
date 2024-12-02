@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer"
+    ;
+}
+.item{
+    background-color: azure;
+    color: red;
+}
+.box1{
+    text-align: center;
+}
+.box1{
+    grid-area: header;
+}
+.box2{
+    grid-area: main;
+}
+.box3{
+    grid-area: aside;
+}
+.box4{
+    grid-area: footer;
+}
