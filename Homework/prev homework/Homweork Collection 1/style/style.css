@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: black;
+  color: #39ff14;
+  font-family: "Copperplate Gothic", sans-serif;
+}

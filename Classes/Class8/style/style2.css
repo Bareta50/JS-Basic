@@ -1,0 +1,14 @@
+html {
+  background-color: #000000;
+  color: #04ff2a;
+  font-family: "Courier New", Courier, monospace;
+  h1 {
+    text-align: center;
+  }
+}
+.buttons {
+  background-color: #04ff2a;
+  border-color: #000000;
+  border-radius: 10px;
+  padding: 0;
+}

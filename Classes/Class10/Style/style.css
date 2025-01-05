@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: #39ff14;
+  border: 2px solid #39ff14;
+  border-radius: 5px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+html {
+  background-color: black;
+  color: #39ff14;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  text-align: center;
+}
